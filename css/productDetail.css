@@ -1,0 +1,76 @@
+.small-container .col-2 img{
+    width: 100%;   
+    cursor: pointer;
+    
+}
+.imgdetail{
+    flex-basis: 60%;
+    margin-right: 20px;
+}
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{
+    padding: 0px;
+    cursor: pointer;
+}
+
+.single-product .col-2{
+    padding:20px;
+}
+.single-product h4{
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 40px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 15px;
+    border: 1px solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+
+.fa-indent{
+    color: #ff523b;
+    margin-left: 10px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 9px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+}
+
+.small-container .row-2 a p:hover{
+    color: #ff523b;
+}
+
+@media only screen and (max-width: 600px){
+    .single-product .col-2{
+        text-align: left ;
+        padding: 10px;
+    }
+    
+    .single-product h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single-product select{
+        margin-top: -10px;
+    }
+    
+
+}
