@@ -50,6 +50,11 @@ input:focus{
     padding-right: 9px;
 }
 
+.small-img-row img:hover{
+    transform: translateY(25px);
+    transition: transform 1s;
+}
+
 .small-img-col{
     flex-basis: 24%;
 }
